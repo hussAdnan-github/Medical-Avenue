@@ -70,9 +70,9 @@ export default defineConfig({
     }),
   ],
   base,
-  build: {
+ build: {
     sourcemap: true,
-    outDir: 'out',
+    outDir: 'dist', // قم بتغيير 'out' إلى 'dist' هنا
   },
   resolve: {
     alias: {
