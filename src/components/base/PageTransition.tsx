@@ -43,6 +43,7 @@ export default function PageTransition({ children }: PageTransitionProps) {
     <>
       {/* Page content — always rendered, just fades briefly */}
       <div
+        key={location.pathname}
         style={{
           opacity: fading ? 0.6 : 1,
           transition: fading
